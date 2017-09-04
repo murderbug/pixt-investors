@@ -1,0 +1,497 @@
+/*============================================================
+	For Small Desktop
+==============================================================*/
+
+@media (min-width: 980px) and (max-width: 1150px) {
+
+	/* parallax section */
+    .parallax-section {
+        background-position: center top !important;
+        background-attachment: scroll !important;
+    	padding-bottom: 40px !important;
+    	padding-top: 70px !important;
+    }
+    
+    .title h2 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 28px;
+        color: #fff;
+    }
+    #our-team{
+       /* background-image: url("../img/parallax/coachella-2-m.jpg"); */
+        background-image: none; 
+    	background-color: #2a2b30;
+    }
+    #services{
+        background-image: url("../img/parallax/arab-spring-m.jpg"); 
+    	background-color: #2a2b30;
+    }
+    #main-features{
+        background-image: none !important;
+    	background-color: #202125;
+    }
+	
+	/* home slider */
+    #slitSlider .carousel-caption h2 {
+        font-size: 60px;
+    }
+	
+	/* about us */
+    .feature-desc h3 {
+        margin-top: 0;
+    }
+	
+	/* our team */
+    .team-mate {
+        margin-bottom: 30px;
+    }
+
+    .mask ul {
+        top: 85px;
+    }
+
+    .mask ul li {
+        margin: 0 5px;
+    }
+
+    .team-mate > h4 {
+        margin-bottom: 10px;
+    }
+
+    .team-mate img {
+        margin: 0 auto;
+    }
+
+    .member-info ul li {
+        margin-right: 10px;
+    }
+}
+
+/*============================================================
+	Tablet (Portrait) Design for a width of 768px
+==============================================================*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+	/* parallax section */
+    .parallax-section {
+        background-position: center top !important;
+        background-attachment: scroll !important;
+    	padding-bottom: 40px !important;
+    	padding-top: 70px !important;
+    }
+    
+    .title h2 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 28px;
+        color: #fff;
+    }
+    #our-team{
+       /* background-image: url("../img/parallax/coachella-2-m.jpg"); */
+        background-image: none; 
+    	background-color: #2a2b30;
+    }
+    #services{
+        background-image: url("../img/parallax/arab-spring-m.jpg"); 
+    	background-color: #2a2b30;
+    }
+    #main-features{
+        background-image: none !important;
+    	background-color: #202125;
+    }
+    
+    .counters-item h3 {
+    	font-family: Ubuntu,sans-serif;
+    	font-size: 1.25em;
+    	margin: 0;
+    }
+
+	/* home page slider */
+    #slitSlider .carousel-caption h2 {
+        font-size: 50px;
+    }
+
+    #nav-dots {
+        display: block;
+    }
+
+    #nav-arrows {
+        display: none;
+    }
+	
+	/* navigation */
+    .navbar-inverse .navbar-nav li a {
+        padding: 20px 10px;
+    }
+
+	/* about us */
+    .wrap-about {
+        margin: 0 0 75px;
+    }
+
+    .about-content {
+        margin: 0 auto;
+        width: 60%;
+    }
+
+	/* fun facts */
+    #counter {
+        padding-bottom: 50px;
+    }
+
+    .counters-item {
+        margin-bottom: 30px;
+    }
+
+	/* our services */
+    .service-block {
+        margin: 0 auto 40px;
+        width: 310px;
+    }
+
+	/* our team */
+    .team-mate {
+        margin: 0 auto 30px;
+        width: 280px;
+    }
+
+
+	/* pricing table */
+    .pricing {
+        margin: 0 auto 30px;
+        width: 300px;
+    }
+
+
+	/* latest posts */
+    .note {
+        margin-bottom: 30px;
+    }
+
+
+}
+
+
+/*============================================================
+	Mobile (Portrait) Design for a width of 320px
+==============================================================*/
+
+@media only screen and (max-width: 767px) {
+
+	/* parallax section */
+    .parallax-section {
+        background-position: center top !important;
+        background-attachment: scroll !important;
+    	padding-bottom: 40px !important;
+    	padding-top: 70px !important;
+    }
+    
+    .title h2 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 28px;
+        color: #fff;
+    }
+    #our-team{
+       /* background-image: url("../img/parallax/coachella-2-m.jpg"); */
+        background-image: none; 
+    	background-color: #2a2b30;
+    }
+    #services{
+        background-image: url("../img/parallax/arab-spring-m.jpg"); 
+    	background-color: #2a2b30;
+    }
+    #main-features{
+        background-image: none !important;
+    	background-color: #202125;
+    }
+
+	/* h1 font size home slider */
+    h1 {
+        font-size: 30px;
+    }
+
+    .carousel-caption img {
+        width: 70%;
+    }
+
+    #slitSlider .carousel-caption h2 {
+        font-size: 24px;
+        letter-spacing: 0.5px;
+        line-height: 35px;
+        margin-bottom: 25px;
+    }
+
+    #slitSlider .carousel-caption h3 {
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        line-height: 28px;
+        margin-bottom: 25px;
+    }
+
+    #slitSlider .carousel-caption a {
+        font-size: 14px;
+    }
+
+    #nav-dots {
+        display: block;
+    }
+
+    #nav-arrows {
+        display: none;
+    }
+
+	/* navigation */
+    .navbar-fixed-top {
+        padding-bottom: 10px;
+    }
+
+    .navbar-inverse .navbar-toggle,
+	.navbar-inverse .navbar-toggle .icon-bar {
+        border-color: #4e595f;
+        border-radius: 0;
+    }
+
+    .navbar-inverse .navbar-toggle:hover {
+        border-color: #ddd;
+        border-radius: 0;
+    }
+
+    .navbar-inverse .navbar-toggle .icon-bar:hover {
+        background-color: #ddd;
+    }
+
+    .navbar-collapse.in {
+        overflow-y: inherit;
+    }
+
+    .navbar-brand {
+        padding: 10px 0 10px 10px;
+    }
+
+    .navbar-toggle {
+        margin-top: 22px;
+    }
+
+    .navbar-nav {
+        margin: 0 -15px;
+    }
+
+    .navbar-inverse .navbar-nav li a {
+        line-height: 45px;
+        padding: 0;
+        text-align: center;
+        border-bottom: 1px solid transparent;
+    }
+
+    .wrap-about {
+        margin: 0 auto 80px;
+        width: 85%;
+    }
+
+    .feature-desc a {
+        margin: 5px 5px 5px 0;
+    }
+
+	/* fun facts */
+    .counters-item {
+        margin: 0 auto 25px;
+        width: 270px;
+    }
+
+	/* services */
+    #services .title {
+        padding-bottom: 60px;
+    }
+
+    .service-block {
+        margin: 0 auto 30px;
+        width: 280px;
+        position: relative;
+        left: -8px;
+    }
+
+	/* our skills */
+
+
+	/* our team */
+    .team-mate {
+        margin: 0 auto 31px;
+        width: 280px;
+    }
+
+    .team-mate img {
+        margin: 0 auto;
+    }
+
+    .member-info ul {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+	/* pricing table */
+    .pricing {
+        margin: 0 auto 20px;
+        width: 280px;
+    }
+
+	/* testimonials */
+    .sub-title h3 {
+        font-size: 18px;
+    }
+
+
+	/* latest posts */
+    #blog {
+        padding-bottom: 0;
+    }
+	
+    .note {
+        margin-bottom: 30px;
+        font-size: 1.125em;
+    }
+
+    .note .excerpt {
+        padding: 0 20px 20px;
+    }
+
+    .all-post {
+        margin: 20px 0 30px;
+    }
+
+	/* contact */
+    .contact-info {
+        margin: 0 0 30px;
+    }
+
+	/* footer */
+
+    .blog-title h1 {
+        font-size: 28px;
+    }
+
+	/* blog page */
+    #blog-page {
+        margin: 0;
+    }
+
+    #blog-posts {
+        margin: 0 0 40px;
+    }
+
+    .post-excerpt h3 {
+        font-size: 20px;
+    }
+
+	
+}
+
+
+
+/*============================================================
+	Mobile (Landscape) Design for a width of 480px
+==============================================================*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	/* homepage slider */
+    #slitSlider .carousel-caption h2 {
+        font-size: 30px;
+    }
+
+    #slitSlider .carousel-caption h3 {
+        font-size: 25px;
+    }
+
+    #slitSlider .carousel-caption a {
+        font-size: 14px;
+    }
+
+    .carousel-caption img {
+        width: 50%;
+    }
+
+	/* navigation */
+    .navbar-fixed-top {
+        padding-bottom: 10px;
+    }
+
+    .navbar-brand {
+        padding: 10px 0 10px 10px;
+    }
+
+    .navbar-inverse .navbar-toggle {
+        border-color: #6CB670;
+        border-radius: 0;
+    }
+
+    .navbar-inverse .navbar-toggle:hover {
+        border-color: #fff;
+        border-radius: 0;
+    }
+
+    .navbar-collapse.in {
+        overflow-y: inherit;
+    }
+
+    .navbar-toggle {
+        margin-top: 22px;
+    }
+
+    .navbar-inverse .navbar-nav li a {
+        line-height: 45px;
+        padding: 0;
+        text-align: center;
+        border-bottom: 2px solid transparent;
+    }
+
+	/* about us */
+    .wrap-about {
+        margin: 0 auto 75px;
+        width: 70%;
+    }
+
+	/* services */
+    .service-block {
+        margin: 0 auto 40px;
+        width: 310px;
+    }
+
+	/* our team */
+    .team-mate {
+        margin: 0 auto 30px;
+        width: 280px;
+    }
+
+    .team-mate img {
+        margin: 0 auto;
+    }
+
+	/* portfolio */
+    .og-grid li {
+        width: 245px;
+    }
+	/* pricing table */
+    .pricing {
+        margin: 0 auto 30px;
+        width: 350px;
+    }
+
+	/* latest posts */
+    #blog {
+        padding-bottom: 0;
+    }
+	
+    .note {
+        margin: 0 auto 30px;
+        width: 75%;
+        font-size: 1.125em;
+    }
+
+	/* contact */
+    .contact-info {
+        width: 100%;
+    }
+}
